@@ -1,0 +1,200 @@
+/* Higher than 1200 (desktop devices)
+====================================================================== */
+@media (min-width: 1200px) {
+	#content {
+		padding: 20px;
+		margin-left: -2px;
+	}
+	#sidebar-left {
+		background: transparent;
+		padding-top: 0;
+	}
+	.sidebar-nav > ul {
+		/*margin: 0px 0px 0px -20px;*/
+	}
+}
+/* Higher than 960 (desktop devices)
+====================================================================== */
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+	#content {
+		padding: 20px;
+		margin-left: -2px;
+		overflow: hidden;
+	}
+	#sidebar-left {
+		background: transparent;
+		padding-top: 0;
+	}
+	.sidebar-nav > ul {
+		/*margin: 0px 0px 0px -20px;*/
+	}
+}
+/* Tablet Portrait (devices and browsers)
+====================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	body {
+		padding-top:60px;
+		min-width:835px;
+	}
+	.navbar-fixed-top, .navbar-fixed-bottom	{
+		position:fixed;
+	}
+	.navbar-fixed-top .navbar-search {
+		display:none;
+	}
+	.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+		padding:0;
+	}
+	#sidebar-left {
+		background: transparent;
+		padding-top: 0;
+	}
+	.sidebar-nav > ul {
+		/*margin: 0px 0px 0px -20px;*/
+	}
+	.nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a {
+		/*font-weight:normal;*/
+	}
+	.btn-navbar {
+		display: none !important;
+	}
+	.nav-collapse,
+	.nav-collapse.collapse {
+		height: auto !important;
+		overflow: visible !important;
+		/*margin-left: -20px !important;*/
+	}
+	.sidebar-nav {
+		padding: 0;
+		margin-bottom: 0;
+	}
+	.user-box-meta	{ display:none; }
+	.user-box-data	{ margin-right:20px; }
+	ul.answer-lists li .a-comment	{ width:300px; }
+}
+/* All Mobile Sizes (devices and browser)
+====================================================================== */
+@media only screen and (max-width: 767px) {
+	body {
+		padding:60px 0 0 0;
+	}
+	.container-fluid {
+		padding:0 20px;
+	}
+	.navbar-fixed-top, .navbar-fixed-bottom	{
+		position:fixed;
+	}
+	.navbar-fixed-top .navbar-inner,
+	.navbar-fixed-bottom .navbar-inner {
+		padding:0px;
+	}
+	.navbar-fixed-top .brand {
+		padding:0 10px;
+	}
+	.navbar-fixed-top .navbar-search,
+	.navbar-fixed-top .navbar-tagmap {
+		display:none;
+	}
+	.navbar-fixed-top .pull-right {
+		width:auto;
+	}
+	#content {
+		margin: 0 !important;
+		overflow: hidden;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		padding:20px 10px;
+	}
+	.sidebar-nav > ul {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	}
+	.nav-tabs.nav-stacked > li {
+		margin: 0px !important;
+		border-top: 1px solid rgba(255, 255, 255, 0.5);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.nav-tabs.nav-stacked > li > a {
+		margin: 0px !important;
+		font-size: 14px;
+		padding: 12px 0px;color: #aaa;
+		text-shadow: 0px 1px 0px #fff;
+	}
+	.nav-tabs.nav-stacked > li > ul > li > a {
+		font-size: 12px;
+	}
+	.nav-tabs.nav-stacked > li > a > i {
+		display: inline;
+		margin-right: 10px;
+	}
+	.nav-tabs.nav-stacked > li > ul > li > a > i {
+		display: inline;
+		margin-right: 10px;
+	}
+	.nav-tabs.nav-stacked > li.active > a {
+		border: 0px;
+	}
+	.nav-tabs.nav-stacked > li.active > ul {
+		border: 0px;
+	}
+	.user-box-meta	{ display:none; }
+	.user-box-data	{ margin-right:20px; }
+	.nav-mypage .mypage-title	{ font-size:13px; }
+	ul.answer-lists li .a-comment	{ width:150px; }
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers)
+====================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	body {
+		padding-top:60px;
+	}
+	.container-fluid {
+		padding:0 20px;
+	}
+	.navbar-fixed-top,
+	.navbar-fixed-bottom {
+		position:fixed;
+	}
+	.navbar-fixed-top .navbar-inner,
+	.navbar-fixed-bottom .navbar-inner {
+		padding:0px;
+	}
+	.navbar-fixed-top .brand {
+		padding:0 10px;
+	}
+	.navbar-fixed-top .pull-right {
+		width:auto;
+	}
+	.quick-button,
+	.quick-button-small {
+		margin-bottom: 20px;
+	}
+	.pull-right {
+		width: 100%;
+		margin: 10px auto;
+		text-align: center;
+	}
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
+=================================================================== */
+@media only screen and (max-width: 479px) {
+	.quick-button,
+	.quick-button-small {
+		margin-bottom: 20px;
+	}
+	.pull-right {
+		width: 100%;
+		margin: 10px auto;
+		text-align: center;
+	}
+	table,
+	.pagination {
+		font-size: 10px;
+	}
+	.pagination {
+		padding: 5px;
+	}
+	.nav-mypage .mypage-title { display:none; }
+	ul.answer-lists li .a-info	{ width:120px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+}
