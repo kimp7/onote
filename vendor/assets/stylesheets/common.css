@@ -47,7 +47,7 @@ body {
   border: none;
   font-weight: 400;
   /*background: url(/static/img/background/grey_wash_wall.png) repeat;*/
- background: url(/static/img/background/mochaGrunge.png) repeat;
+ background: url(/assets/background/mochaGrunge.png) repeat;
 }
 a		{  } /*color: #777;*/
 a:hover	{ text-decoration:none; }
@@ -1238,7 +1238,7 @@ img.user-profile:hover	{ opacity: .8; filter: alpha(opacity=80); -ms-filter: "pr
 .ui-menu .ui-menu-item a.ui-state-focus	{ margin: 0; background: #658bba; color: #fff; border: 0; font-weight: bold !important; }
 .ui-autocomplete-loading 	{ background: white url(//jqueryui.com/resources/demos/autocomplete/images/ui-anim_basic_16x16.gif) right center no-repeat; }
 /* 헤더 */
-.navbar-search .search-query		{ width: 300px; border-radius: 5px; padding-left: 28px; background: url(/static/img/icon/icon-search.png) no-repeat 2% center; background-size: 16px; }
+.navbar-search .search-query		{ width: 300px; border-radius: 5px; padding-left: 28px; background: url(/assets/icon/icon-search.png) no-repeat 2% center; background-size: 16px; }
 .navbar-search .search-query:focus	{ padding-left: 28px !important; }
 .header-btn-user			{  }
 .header-btn-user img		{ width: 30px; height: 30px; vertical-align:top; }
@@ -1266,7 +1266,7 @@ img.user-profile:hover	{ opacity: .8; filter: alpha(opacity=80); -ms-filter: "pr
 	color:#333;
 }
 .tagmap-wrapper		{ min-width:700px; padding:15px; height:800px; overflow:hidden; }
-.tagmap-mask		{ position:absolute; top:0; left:0; width:100%; height:100%; background: url(/static/img/background/mini-diagonal.png) repeat; z-index:5; opacity:.7; filter: alpha(opacity=70); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; }
+.tagmap-mask		{ position:absolute; top:0; left:0; width:100%; height:100%; background: url(/assets/background/mini-diagonal.png) repeat; z-index:5; opacity:.7; filter: alpha(opacity=70); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; }
 .tagmap-msg			{ position:absolute; top:300px; left:50%; margin-left:-280px; width:500px; padding:30px; color:#333; background:#ecf0f1; border:2px solid #34495e; z-index:10; text-align:center; font-weight:bold; }
 /* 메뉴탭 */
 #sidebar-left	{ position:fixed; float:left; left:10px; top:60px; margin:0 !important; z-index:100; width:80px; }
@@ -1519,8 +1519,8 @@ img.user-profile:hover	{ opacity: .8; filter: alpha(opacity=80); -ms-filter: "pr
 #single-wrapper .single-extend span	{ font-weight:bold; display:inline-block; }
 #single-wrapper .single-share		{ overflow:hidden;  display:inline-block; vertical-align:middle; margin-left:5px; }
 #single-wrapper .single-share a		{ float:left; width:20px; height:20px; overflow:hidden; text-indent:-999px; padding:0; margin-right:5px; }
-#single-wrapper .single-share .fb	{ background:url(/static/img/icon/icon-sh-fb.png) no-repeat; background-size:20px; }
-#single-wrapper .single-share .tw	{ background:url(/static/img/icon/icon-sh-tw.png) no-repeat; background-size:20px; }
+#single-wrapper .single-share .fb	{ background:url(/assets/icon/icon-sh-fb.png) no-repeat; background-size:20px; }
+#single-wrapper .single-share .tw	{ background:url(/assets/icon/icon-sh-tw.png) no-repeat; background-size:20px; }
 #single-wrapper .single-share .gp	{ background:url(//www.gstatic.com/images/icons/gplus-64.png) no-repeat; background-size:20px; }
 #single-wrapper .single-url			{ width:330px; margin-top:8px; }
 #single-wrapper .editor-content		{  }
